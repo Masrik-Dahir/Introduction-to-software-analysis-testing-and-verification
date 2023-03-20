@@ -16,23 +16,23 @@ public class TestLcs {
 
     @Test
     public void test1(){
-        String firstString = "Mai";
-        String secondString = "Chai";
-        assertEquals(Lcs.lcs(firstString, secondString), "ai");
+        String firstString = "baton";
+        String secondString = "solon";
+        assertEquals(Lcs.lcs(firstString, secondString), "on");
     }
 
     @Test
     public void test2(){
-        String firstString = "Tennis";
-        String secondString = "Bug";
+        String firstString = "N/A";
+        String secondString = "Common";
         assertEquals(Lcs.lcs(firstString, secondString), "");
     }
 
     @Test
     public void test3(){
-        String firstString = "Cat";
-        String secondString = "Cat";
-        assertEquals(Lcs.lcs(firstString, secondString), "Cat");
+        String firstString = "Same String";
+        String secondString = "Same String";
+        assertEquals(Lcs.lcs(firstString, secondString), "Same String");
     }
     @Test
     public void test4(){
@@ -43,9 +43,9 @@ public class TestLcs {
 
     @Test
     public void test5(){
-        String firstString = "Balls";
-        String secondString = "Mall";
-        assertEquals(Lcs.lcs(firstString, secondString), "all");
+        String firstString = "Middle";
+        String secondString = "Paddles";
+        assertEquals(Lcs.lcs(firstString, secondString), "ddle");
     }
 
 }
