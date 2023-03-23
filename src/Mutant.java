@@ -1,12 +1,20 @@
-//***********************************************************
-// Calculate the number of Days between the two given days in
-// the same year.
-// preconditions : day1 and day2 must be in same year
-// 1 <= month1, month2 <= 12
-// 1 <= day1, day2 <= 31
-// month1 <= month2
-// The range for year: 1 ... 10000
-//***********************************************************
+/****************************************************************************
+ * Mutant
+ ****************************************************************************
+ * Calculate the number of Days between the two given days in the same year.
+ * preconditions :
+ *      day1 and day2 must be in same year
+ *      1 <= month1, month2 <= 12
+ *      1 <= day1, day2 <= 31
+ *      month1 <= month2
+ *      The range for year: 1 ... 10000
+ *_____________________________________________________
+ * Masrik Dahir
+ * 22 March 2023
+ * CMSC 525
+ * Copyright 2023, Masrik Dahir, All Right Reserved
+ ****************************************************************************/
+
 public class Mutant {
     public static int cal(int month1, int day1, int month2, int day2, int year) {
         int numDays;

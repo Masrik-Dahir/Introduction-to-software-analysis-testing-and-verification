@@ -1,4 +1,7 @@
-/*
+/****************************************************************************
+ * TestMutant
+ ****************************************************************************
+ * Testing Mutant Class function: cal
  * Active mutators:
  *      CONDITIONALS_BOUNDARY
  *      EMPTY_RETURNS
@@ -11,8 +14,12 @@
  *      PRIMITIVE_RETURNS
  *      TRUE_RETURNS
  *      VOID_METHOD_CALLS
- */
-
+ *_____________________________________________________
+ * Masrik Dahir
+ * 22 March 2023
+ * CMSC 525
+ * Copyright 2023, Masrik Dahir, All Right Reserved
+ ****************************************************************************/
 
 import org.junit.Test;
 import static org.junit.Assert.*;
