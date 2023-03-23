@@ -1,3 +1,19 @@
+/*
+ * Active mutators:
+ *      CONDITIONALS_BOUNDARY
+ *      EMPTY_RETURNS
+ *      FALSE_RETURNS
+ *      INCREMENTS
+ *      INVERT_NEGS
+ *      MATH
+ *      NEGATE_CONDITIONALS
+ *      NULL_RETURNS
+ *      PRIMITIVE_RETURNS
+ *      TRUE_RETURNS
+ *      VOID_METHOD_CALLS
+ */
+
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
