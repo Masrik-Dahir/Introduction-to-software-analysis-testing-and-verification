@@ -45,7 +45,7 @@ public class TestMutant {
      * line 32: Killing replaced int return with 0 for Mutant::cal Mutant
      */
     @Test
-    public void testNonLeapYear(){
+    public void testNotLeapYear(){
         Mutant mutant = new Mutant();
         assertEquals(28, mutant.cal(2,1,3,1,300));
     }
