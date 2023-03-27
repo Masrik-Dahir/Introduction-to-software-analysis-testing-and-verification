@@ -2,3 +2,4 @@
 /out/
 .idea
 /.gradle/
+/build/libs/lec15-demo1-1.0-SNAPSHOT.jar
